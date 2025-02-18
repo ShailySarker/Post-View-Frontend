@@ -8,13 +8,13 @@ const Routers = () => {
     return (
         <Routes>
             <Route
+                index
+                element={<LandingPage />}
+            />
+            <Route
                 path="/"
                 element={<MainLayouts />}
             >
-                <Route
-                    index
-                    element={<LandingPage />}
-                />
                 <Route
                     path="/posts"
                     element={<Posts />}
