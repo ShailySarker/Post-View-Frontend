@@ -1,6 +1,7 @@
 import moment from "moment";
 import { FaDiscord, FaEnvelope, FaFacebook, FaInstagram, FaPhone, FaYoutube } from "react-icons/fa6";
 import { IoFlash } from "react-icons/io5";
+import { Link } from "react-router";
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                     <h2 className="xl:text-2xl md:text-xl text-lg font-bold">Quick Links</h2>
                     <div className="flex md:gap-20 gap-28 xl:mt-7 md:mt-5 mt-3">
                         <div className="flex flex-col xl:gap-3 md:gap-2 gap-[6px] xl:text-lg md:text-base text-sm font-medium">
-                            <ul className="">All Posts</ul>
+                            <Link to="/posts"><ul className="">All Posts</ul></Link>
                             <ul className="">About Us</ul>
                             <ul className="">Contact Us</ul>
                             <ul className="">Help</ul>
@@ -26,7 +27,7 @@ const Footer = () => {
                 <div>
                     <h2 className="xl:text-2xl md:text-xl text-lg font-bold">Reach Us</h2>
                     <div className="flex flex-col xl:gap-3 md:gap-2 gap-[6px] xl:text-lg md:text-base text-sm xl:mt-7 md:mt-5 mt-3 font-medium">
-                        <p className="flex items-center gap-2"><FaEnvelope />postspro@gmail.com</p>
+                        <p className="flex items-center gap-2"><FaEnvelope />postview@gmail.com</p>
                         <p className="flex items-center gap-2"><FaPhone /> +91 0000000000</p>
                         <p></p>
                     </div>
