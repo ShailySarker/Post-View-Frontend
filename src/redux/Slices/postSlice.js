@@ -3,7 +3,11 @@ import { fetchPosts } from "../apis/postCalls";
 
 const postSlice = createSlice({
     name: "posts",
-    initialState: { posts: [], filteredPosts: [], loading: false },
+    initialState: {
+        posts: [],
+        filteredPosts: [],
+        loading: false
+    },
     reducers: {
         searchPosts: (state, action) => {
             state.filteredPosts = state.posts.filter(post =>
