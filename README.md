@@ -9,15 +9,15 @@ Description: Post View is a simple and interactive React.js application that fet
 
 # Website View:
 
-Landing Page View:
+# Landing Page View:
 
 ![Alt Text](src/assets/websiteView/PostViewWebsite_part1.png)
 
-Posts Page View:
+# Posts Page View:
 
 ![Alt Text](src/assets/websiteView/PostViewWebsite_part2.png)
 
-Post Details Page View:
+# Post Details Page View:
 
 ![Alt Text](src/assets/websiteView/PostViewWebsite_part3.png)
 
