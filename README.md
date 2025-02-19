@@ -5,7 +5,9 @@ https://post-view-frontend.vercel.app
 
 # Technologies:
 JavaScript, Tailwind CSS, ReactJS, Redux Toolkit, React Router.
-Description: Post View is a simple and interactive React.js application that fetches and displays posts from a public API. It allows users to search, filter, and explore posts effortlessly. Built with React, Redux Toolkit, React Router, and Tailwind CSS, it provides a seamless and responsive user experience.
+
+# Description:
+Post View is a simple and interactive React.js application that fetches and displays posts from a public API. It allows users to search, filter, and explore posts effortlessly. Built with React, Redux Toolkit, React Router, and Tailwind CSS, it provides a seamless and responsive user experience.
 
 # Website View:
 
